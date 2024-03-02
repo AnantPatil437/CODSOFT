@@ -6,8 +6,8 @@ public class NumberGame {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         
-        int lowerBound = 1; // Lower bound for random number generation
-        int upperBound = 100; // Upper bound for random number generation
+        int lowerBound = 1; 
+        int upperBound = 100; 
         int randomNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
         
         System.out.println("Number Guessing Game!");
